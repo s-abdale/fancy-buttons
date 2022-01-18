@@ -5,7 +5,7 @@ function CounterButton(props){
 
   return (
     <button className="CounterButton">
-      You clicked me X amount of times
+      You clicked me {clickAmount} times
     </button>
   );
 }
