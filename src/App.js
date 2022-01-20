@@ -11,7 +11,7 @@ function App() {
   const switchLight = () => setLight(light === "on" ? "off" : "on");
 
   return (
-    <div className={`App ${dark}`}>
+    <div className={`App ${dark}`} onClick={switchLight}>
       <h1>Fancy Buttons!</h1>
       <section>
         <AngryButton />
